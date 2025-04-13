@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chemical Engineering Lab</title>
+    <!-- Bootstrap CSS from CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      body {
+        padding-top: 60px; /* space for fixed navbar */
+      }
+      /* Header styling */
+      .header {
+        background: url('header-bg.jpg') no-repeat center center;
+        background-size: cover;
+        color: white;
+        padding: 60px 0;
+      }
+      .overlay {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">ChemEng Lab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home" class="header">
+      <div class="overlay">
+        <div class="container text-center">
+          <h1>Welcome to the Chemical Engineering Lab</h1>
+          <p>University Research in Diverse Chemical Engineering Themes</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Research Section -->
+    <section id="research" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Our Research Areas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Process Engineering</h4>
+            <p>Innovative approaches to optimize chemical processes.</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Materials Science</h4>
+            <p>Exploring new materials for energy and sustainability.</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Catalysis</h4>
+            <p>Developing catalysts to improve efficiency and selectivity.</p>
+          </div>
+          <!-- Add more research topics as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Meet Our Team</h2>
+        <div class="row">
+          <!-- Team member card -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="team1.jpg"
+                class="card-img-top"
+                alt="Dr. Jane Doe"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dr. Jane Doe</h5>
+                <p class="card-text">
+                  Principal Investigator with expertise in reaction engineering.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Additional team members -->
+          <!-- Duplicate the above card for each additional member -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Recent Publications</h2>
+        <ul>
+          <li>
+            <strong>Publication Title 1</strong> (Journal Name, Year) -
+            A brief summary of the research findings.
+          </li>
+          <li>
+            <strong>Publication Title 2</strong> (Journal Name, Year) -
+            A brief summary of the research findings.
+          </li>
+          <!-- More publications can be listed here -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your message here"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+        <p>&copy; 2025 Chemical Engineering Lab at University Name. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
